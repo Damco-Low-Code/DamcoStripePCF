@@ -24,7 +24,7 @@ As a result, you should get the solution StripePaymentComponent containing:
   - Environment Variable: EV_StripePublishedKey --> Environment variable for storing Stripe published key. You can get this value from Stripe Dashboard.
   - Environment Variable: EV_StripeSecretKey --> Environment variable for storing Stripe secret key. You can get this value from Stripe Dashboard.
 #### 2. Set up Environment variables
-Set Stripe published and secret keys in current value section of environment variables EV_StripePublishedKey and EV_StripeSecretKey respectively.
+Set Stripe published and secret keys in default value section of environment variables EV_StripePublishedKey and EV_StripeSecretKey respectively.
 #### 3. Set up the Power Automate “Stripe_GetPaymentIntent”
 The Power Automate will interact with Payment Intent API of Stripe through HTTP request and returns the Payment Intent object including the client_secret value, which is then used by the PCF payment control. The flow requires the API secret key to be provided as part of the establishing a connection. 
 Follow below steps to configure the flow:
