@@ -1,5 +1,5 @@
 # StripePaymentsPCF
-This is a simple PCF control and a customer connector that allow to facilitate credit card payments in Power Apps via Stripe.
+This is a simple PCF control with a combination of Power Automate that allows customers to make credit card payments in Canvas Power Apps using Stripe.
 
 ## What is Stripe?
 Stripe is a 3rd party payment services provider that facilitate secure credit card payments. It provides a suite of APIs that can be used to integrate it in various e-commerce applications for powering online payment processing.
